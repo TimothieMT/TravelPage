@@ -79,35 +79,6 @@ section:last-of-type {
     color: #fff !important;
 }
 
-@media (max-width: 768px) {
-    section:first-of-type {
-        padding-top: 80px;
-    }
-    .navbar-nav {
-        padding: 0px;
-    }
-    .navbar-nav li a {
-        padding-left: 20px !important;
-    }
-}
-
-@media (min-width: 768px) {
-    section:first-of-type {
-        padding-top: 100px;
-    }
-    .navbar-theme {
-        background: none !important;
-    }
-    .navbar-brand {
-        display: none;
-    }
-    .navbar-nav li a {
-        color: #fff;
-        margin: 0;
-        padding: 10px 20px !important;
-    }
-}
-
 
 /*Navigation END*/
 
@@ -424,6 +395,41 @@ hr {
 @media screen and (max-width: 410px) {
     .send-button {
         width: 99%;
+    }
+}
+
+@media (max-width: 768px) {
+    section:first-of-type {
+        padding-top: 60px;
+    }
+    .navbar-nav {
+        padding: 0px;
+    }
+    .navbar-nav li a {
+        padding-left: 20px !important;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    p {
+        overflow: scroll;
+    }
+}
+
+@media (min-width: 768px) {
+    section:first-of-type {
+        padding-top: 100px;
+    }
+    .navbar-theme {
+        background: none !important;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-nav li a {
+        color: #fff;
+        margin: 0;
+        padding: 10px 20px !important;
     }
 }
 
